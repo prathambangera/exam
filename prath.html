@@ -1,0 +1,44 @@
+<html>
+<head>Arithmetic calculation</head>
+<style>
+div
+{height:200px;
+width:150px;
+padding:20px;
+margin:auto;}
+</style>
+<body>
+<div><center>
+<h1>calculator</h1>
+<label for="number">enter the first number:</label>
+<input type="text"id="num1"><br><br>
+<label for="number">enter the second number:</label>
+<input type="text"id="num2"><br><br>
+<button type="button"onclick="add()">+</button>
+<button type="button"onclick="subtract()">-</button>
+<button type="reset"onclick="reset()">c</button>
+<label for="sum">sum</label>
+<input type="text"id="sum"></div></center>
+<script>
+funtion add(){
+num1=parseId(document.getElementbyId("num1").value);
+num2=parseId(document.getElementbyId("num2").value);
+sum=num1+num2;
+document.getElementbyId("sum").value=sum;
+}
+function subtract(){
+num1=parseId(document.getElementbyId("num1").value);
+num2=parseId(document.getElementbyId("num2").value);
+sum=num1-num2;
+document.getElementbyId("subtract").value=subtract;
+}
+function reset(){
+document.getElementbyId("num1").value="";
+document.getElementbyId("num2").value="";
+}
+</script>
+</body>
+</html>
+
+
+
